@@ -1,4 +1,4 @@
-package workspace.RunCore;
+package workspace.RunCore.MainController;
 
 /**
  * Created by mmoscatello on 6/27/2016.
