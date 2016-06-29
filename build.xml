@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="hellojenkins" default="run">
+
+  <target name="run" depends="compile">
+      <java classname="MainController.MainRun">
+          <classpath path="workspace"/>
+      </java>
+  </target>
+
+  <target name="compile">
+    <javac srcdir="./src" destdir="workspace"></javac>
+  </target>
+
+</project>
